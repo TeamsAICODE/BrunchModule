@@ -20,6 +20,13 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("안녕하세요.");
+
+            return; // 추가 입니다. 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int sum = 100;
         }
     }
 }

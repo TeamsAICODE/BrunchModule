@@ -21,7 +21,12 @@ namespace WindowsFormsApp1
         {
             MessageBox.Show("안녕하세요.");
 
-            return // 추가 입니다. 
+            return; // 추가 입니다. 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int sum = 100;
         }
     }
 }
